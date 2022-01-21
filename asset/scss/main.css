@@ -173,7 +173,7 @@ body .front .front-secondary .camera-secondary {
 }
 
 body .front .front-secondary .camera-secondary::before {
-  content: '16:12';
+  content: "16:12";
   position: absolute;
   top: 6px;
   left: 24px;
@@ -261,7 +261,7 @@ body .front .front-secondary .wrap-icons .gallery .app-line {
           justify-content: space-evenly;
   font-size: 8px;
   color: #ffffff;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 body .front .front-secondary .wrap-icons .gallery .app-line div {
@@ -663,5 +663,14 @@ body .back ul li:nth-child(4) {
 
 body .opened {
   z-index: 5000 !important;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=main.css.map */

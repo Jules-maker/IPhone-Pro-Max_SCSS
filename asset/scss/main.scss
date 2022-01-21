@@ -32,9 +32,8 @@ body {
             -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
             box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
         }
-       
+
         .camera {
-            
             margin: -4px 0px 0px 66px;
             width: 105px;
             height: 25px;
@@ -108,7 +107,7 @@ body {
                 z-index: -20;
             }
             li:nth-child(2) {
-                cursor:pointer;
+                cursor: pointer;
                 height: 30px;
                 width: 3px;
                 background-color: #e0c79b;
@@ -190,7 +189,7 @@ body {
         .front-secondary {
             height: calc(160.8px * 3);
             width: calc(78.1px * 3);
-            background-image: url('https://updatenaw.com/wp-content/uploads/2021/09/Wallpapers-for-iPhone-13-Pro-13-Pro-Max-and-iPhone-13-mini.jpg');
+            background-image: url("https://updatenaw.com/wp-content/uploads/2021/09/Wallpapers-for-iPhone-13-Pro-13-Pro-Max-and-iPhone-13-mini.jpg");
             background-size: cover;
             border-radius: 34px;
             position: absolute;
@@ -198,14 +197,13 @@ body {
             top: 0;
             z-index: -500;
             .camera-secondary {
-                
                 margin: -4px 0px 18px 66px;
                 width: 105px;
                 height: 25px;
                 border-radius: 0 0 15px 15px;
                 background-color: #232020;
-                &::before{
-                    content: '16:12';
+                &::before {
+                    content: "16:12";
                     position: absolute;
                     top: 6px;
                     left: 24px;
@@ -214,7 +212,6 @@ body {
                     letter-spacing: 1px;
                     font-family: "Montserrat";
                 }
-                
             }
 
             .line-secondary {
@@ -224,7 +221,7 @@ body {
                 border-radius: 5px;
                 background-color: rgb(54, 54, 54);
                 position: relative;
-                &::before{
+                &::before {
                     content: "";
                     position: absolute;
                     background-image: url("../img/batteryiphone.png");
@@ -254,19 +251,17 @@ body {
                 //     background-color: rgb(54, 54, 54);
                 // }
             }
-           
 
-           .wrap-icons{
-            height: 460px;
-            width: calc(78.1px * 3);
-            
-           
-               .gallery{
-                //    background-color: #001b26;
-                   display: flex;
-                   flex-direction: column;
-                   justify-content: space-between;
-                   flex-wrap: wrap;
+            .wrap-icons {
+                height: 460px;
+                width: calc(78.1px * 3);
+
+                .gallery {
+                    //    background-color: #001b26;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
                     height: 310px;
                     position: relative;
 
@@ -280,82 +275,77 @@ body {
                         top: 335px;
                         left: 125px;
                     }
-                // TODO::border-radius: ;
+                    // TODO::border-radius: ;
 
-                   .app-line{
-                    //    background-color: green;
-                       display: flex;
-                       flex-direction: row;
-                       margin: 0;
-                       justify-content: space-evenly;
-                       font-size: 8px;
-                       color: #ffffff;
-                       font-family: 'Montserrat';
-                       div{
-                           
-                           display: flex;
-                           flex-direction: column;
-                           text-align: center;
-                           justify-content: center;
-                          
-                            
+                    .app-line {
+                        //    background-color: green;
+                        display: flex;
+                        flex-direction: row;
+                        margin: 0;
+                        justify-content: space-evenly;
+                        font-size: 8px;
+                        color: #ffffff;
+                        font-family: "Montserrat";
+                        div {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                            justify-content: center;
+
                             img {
                                 max-width: 30px;
                                 max-height: 30px;
                                 align-self: center;
                                 border-radius: 20%;
                             }
-                            p{
+                            p {
                                 display: inline-block;
                                 max-width: 30px;
                                 margin-top: 4px;
                                 overflow: visible;
                             }
-                       }
-                   }
-               }
-               .docker {
-                backdrop-filter: blur(11px);
-                width: 191px;
-                border-radius: 10px;
-                height: 48px;
-                margin: 55px 20px 20px;
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
-                position: relative;
-
-                &::before {
-                    content: "";
-                    height: 5px;
-                    width: 5px;
-                    background-color: rgba(255, 255, 255, 0.829);
-                    position: absolute;
-                    border-radius: 50%;
-                    top: -30px;
-                    left: 85px;
+                        }
+                    }
                 }
-                &::after {
-                    content: "";
-                    height: 5px;
-                    width: 5px;
-                    background-color: rgba(128, 128, 128, 0.815);
-                    position: absolute;
-                    border-radius: 50%;
-                    top: -30px;
-                    left: 95px;
+                .docker {
+                    backdrop-filter: blur(11px);
+                    width: 191px;
+                    border-radius: 10px;
+                    height: 48px;
+                    margin: 55px 20px 20px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        height: 5px;
+                        width: 5px;
+                        background-color: rgba(255, 255, 255, 0.829);
+                        position: absolute;
+                        border-radius: 50%;
+                        top: -30px;
+                        left: 85px;
+                    }
+                    &::after {
+                        content: "";
+                        height: 5px;
+                        width: 5px;
+                        background-color: rgba(128, 128, 128, 0.815);
+                        position: absolute;
+                        border-radius: 50%;
+                        top: -30px;
+                        left: 95px;
+                    }
+
+                    img {
+                        max-width: 30px;
+                        max-height: 30px;
+                        border-radius: 20%;
+                    }
                 }
-
-                   img{
-                       max-width: 30px;
-                       max-height: 30px;
-                       border-radius: 20%;
-
-                       
-                   }
-               }
-           }
-        
+            }
         }
     }
     .back {
@@ -696,4 +686,11 @@ body {
     .opened {
         z-index: 5000 !important;
     }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+    
 }
