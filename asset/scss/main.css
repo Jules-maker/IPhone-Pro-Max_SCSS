@@ -1,0 +1,667 @@
+body {
+  background-color: #b9b5bd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .front {
+  height: calc(160.8px * 3);
+  width: calc(78.1px * 3);
+  background: #1d4df5;
+  background: linear-gradient(176deg, #1d4df5 0%, #d154b3 50%, #ff9203 100%);
+  border-radius: 40px;
+  border: solid #232020 5px;
+  margin: 5% auto;
+  position: relative;
+}
+
+body .front::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: calc(162px * 3);
+  width: calc(80.1px * 3);
+  background-color: #f5ddc5;
+  border-radius: 40px;
+  border: solid #dbc8b1 5px;
+  top: -7px;
+  right: -8px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+body .front .camera {
+  margin: -4px 0px 0px 66px;
+  width: 105px;
+  height: 25px;
+  border-radius: 0 0 15px 15px;
+  background-color: #232020;
+}
+
+body .front .line {
+  width: 50px;
+  height: 4px;
+  margin: 3px auto 0;
+  border-radius: 5px;
+  background-color: #363636;
+}
+
+body .front .front-lens {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin: 3px 0 0 10px;
+  border-radius: 50%;
+  background-color: #363636;
+  box-shadow: 22px 200px 400px -200px rgba(107, 100, 100, 0.15) inset;
+  -webkit-box-shadow: 22px 200px 400px -200px rgba(78, 72, 72, 0.15) inset;
+  -moz-box-shadow: 22px 200px 400px -200px rgba(82, 76, 76, 0.15) inset;
+}
+
+body .front .notch-top-left {
+  height: 4px;
+  width: 2.5px;
+  background-color: #a49572;
+  margin-top: 20%;
+  margin-left: -3.3%;
+}
+
+body .front .notch-top-right {
+  height: 4px;
+  width: 2.5px;
+  background-color: #a49572;
+  margin-top: -2px;
+  margin-left: 239.5px;
+}
+
+body .front .buttons {
+  margin-top: -50px;
+}
+
+body .front .buttons li:nth-child(1) {
+  height: 20px;
+  width: 2px;
+  background: black;
+  background: linear-gradient(176deg, black 1%, #3e3931 5%, #c9b99f 22%, #b7a88b 78%, #3e3931 95%, black 99%);
+  border-radius: 50px;
+  margin-left: -4%;
+  margin-top: 30%;
+  box-shadow: 1px 1px 1px -1px white inset, 1px 1px 1px 1px;
+  -webkit-box-shadow: 1px 1px 1px -1px white inset;
+  -moz-box-shadow: 1px 1px 1px -1px white inset;
+  z-index: -20;
+}
+
+body .front .buttons li:nth-child(2) {
+  cursor: pointer;
+  height: 30px;
+  width: 3px;
+  background-color: #e0c79b;
+  border-radius: 50px;
+  margin-left: 242px;
+  margin-top: 8%;
+  box-shadow: -200px -17px 1px -200px white inset;
+  -webkit-box-shadow: -200px -17px 1px -200px white inset;
+  -moz-box-shadow: -200px -17px 1px -200px white inset;
+  background: black;
+  background: linear-gradient(176deg, black 1%, #3e3931 5%, #c9b99f 22%, #b7a88b 78%, #3e3931 95%, black 99%);
+}
+
+body .front .buttons li:nth-child(3) {
+  height: 25px;
+  width: 2px;
+  background-color: #e0c392;
+  border-radius: 50px;
+  margin-left: -4%;
+  margin-top: 10%;
+  box-shadow: 1px 1px 1px -1px white inset, 1px 1px 1px 1px;
+  -webkit-box-shadow: 1px 1px 1px -1px white inset;
+  -moz-box-shadow: 1px 1px 1px -1px white inset;
+  background: black;
+  background: linear-gradient(176deg, black 1%, #3e3931 5%, #c9b99f 22%, #b7a88b 78%, #3e3931 95%, black 99%);
+}
+
+body .front .buttons li:nth-child(4) {
+  height: 25px;
+  width: 2px;
+  background-color: #e0c392;
+  border-radius: 50px;
+  margin-left: -4%;
+  margin-top: 2%;
+  box-shadow: 1px 1px 1px -1px white inset, 1px 1px 1px 1px;
+  -webkit-box-shadow: 1px 1px 1px -1px white inset;
+  -moz-box-shadow: 1px 1px 1px -1px white inset;
+  background: black;
+  background: linear-gradient(176deg, black 1%, #3e3931 5%, #c9b99f 22%, #b7a88b 78%, #3e3931 95%, black 99%);
+}
+
+body .front .notch-bottom-left {
+  height: 4px;
+  width: 2.5px;
+  background-color: #a49572;
+  margin-left: -3.3%;
+  margin-top: 60%;
+}
+
+body .front .notch-bottom-right {
+  height: 4px;
+  width: 2.5px;
+  background-color: #a49572;
+  margin-left: -3.3%;
+  margin-left: 239.5px;
+}
+
+body .front .front-secondary {
+  height: calc(160.8px * 3);
+  width: calc(78.1px * 3);
+  background-image: url("https://updatenaw.com/wp-content/uploads/2021/09/Wallpapers-for-iPhone-13-Pro-13-Pro-Max-and-iPhone-13-mini.jpg");
+  background-size: cover;
+  border-radius: 34px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -500;
+}
+
+body .front .front-secondary .camera-secondary {
+  margin: -4px 0px 18px 66px;
+  width: 105px;
+  height: 25px;
+  border-radius: 0 0 15px 15px;
+  background-color: #232020;
+}
+
+body .front .front-secondary .camera-secondary::before {
+  content: '16:12';
+  position: absolute;
+  top: 6px;
+  left: 24px;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: "Montserrat";
+}
+
+body .front .front-secondary .line-secondary {
+  width: 50px;
+  height: 4px;
+  margin: 3px auto 0;
+  border-radius: 5px;
+  background-color: #363636;
+  position: relative;
+}
+
+body .front .front-secondary .line-secondary::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/batteryiphone.png");
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  left: 110px;
+}
+
+body .front .front-secondary .front-lens-secondary {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin: 3px 0 0 10px;
+  border-radius: 50%;
+  background-color: #363636;
+  box-shadow: 22px 200px 400px -200px rgba(107, 100, 100, 0.15) inset;
+  -webkit-box-shadow: 22px 200px 400px -200px rgba(78, 72, 72, 0.15) inset;
+  -moz-box-shadow: 22px 200px 400px -200px rgba(82, 76, 76, 0.15) inset;
+}
+
+body .front .front-secondary .wrap-icons {
+  height: 460px;
+  width: calc(78.1px * 3);
+}
+
+body .front .front-secondary .wrap-icons .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 310px;
+  position: relative;
+}
+
+body .front .front-secondary .wrap-icons .gallery::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: rgba(128, 128, 128, 0.836);
+  position: absolute;
+  border-radius: 50%;
+  top: 335px;
+  left: 125px;
+}
+
+body .front .front-secondary .wrap-icons .gallery .app-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 8px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+}
+
+body .front .front-secondary .wrap-icons .gallery .app-line div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .front .front-secondary .wrap-icons .gallery .app-line div img {
+  max-width: 30px;
+  max-height: 30px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 20%;
+}
+
+body .front .front-secondary .wrap-icons .gallery .app-line div p {
+  display: inline-block;
+  max-width: 30px;
+  margin-top: 4px;
+  overflow: visible;
+}
+
+body .front .front-secondary .wrap-icons .docker {
+  -webkit-backdrop-filter: blur(11px);
+          backdrop-filter: blur(11px);
+  width: 191px;
+  border-radius: 10px;
+  height: 48px;
+  margin: 55px 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+body .front .front-secondary .wrap-icons .docker::before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  background-color: rgba(255, 255, 255, 0.829);
+  position: absolute;
+  border-radius: 50%;
+  top: -30px;
+  left: 85px;
+}
+
+body .front .front-secondary .wrap-icons .docker::after {
+  content: "";
+  height: 5px;
+  width: 5px;
+  background-color: rgba(128, 128, 128, 0.815);
+  position: absolute;
+  border-radius: 50%;
+  top: -30px;
+  left: 95px;
+}
+
+body .front .front-secondary .wrap-icons .docker img {
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 20%;
+}
+
+body .back {
+  height: calc(160.8px * 3);
+  width: calc(78.1px * 3);
+  background: #f6e5c7;
+  background: linear-gradient(176deg, #f6e5c7 0%, #e8d3b6 50%, #d9c7b1 100%);
+  border-radius: 40px;
+  border: solid #232020 4px;
+  margin: 5% auto;
+  position: relative;
+}
+
+body .back::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 492px;
+  width: 245px;
+  background-color: #f5ddc5;
+  border-radius: 40px;
+  border: solid black 1px;
+  top: -6px;
+  right: -6px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+body .back::after {
+  position: absolute;
+  content: "";
+  background-image: url(../img/png-apple-logo-9711.png);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-left: 34.5%;
+  margin-top: -40px;
+}
+
+body .back .objectif-contener {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  margin-left: 3%;
+  margin-top: 3%;
+  border-radius: 30px;
+  background: #f5ddc5;
+  -webkit-box-shadow: inset 5px 5px 10px #e8dcc5, inset -5px -5px 10px #e5d4b6, -41px 5px 5px -51px rgba(0, 0, 0, 0.74);
+          box-shadow: inset 5px 5px 10px #e8dcc5, inset -5px -5px 10px #e5d4b6, -41px 5px 5px -51px rgba(0, 0, 0, 0.74);
+}
+
+body .back .objectif-contener .objectif {
+  background: #d3c5ab;
+  background: linear-gradient(176deg, #d3c5ab 0%, #c9b99f 50%, #b7a88b 100%);
+  width: 95px;
+  height: 95px;
+  border-radius: 27px;
+  margin: 3px 3px 4px 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .back .objectif-contener .objectif .left {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1px;
+}
+
+body .back .objectif-contener .objectif .left .bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 35px;
+  background: #e9dab4;
+  background: linear-gradient(176deg, #e9dab4 0%, #d8bd88 100%);
+  border-radius: 50%;
+  margin: 16% 0 0 17%;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+body .back .objectif-contener .objectif .left .bg .first-lens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: inset 0px 2px 4px -1px rgba(255, 255, 255, 0.93);
+          box-shadow: inset 0px 2px 4px -1px rgba(255, 255, 255, 0.93);
+  width: 28px;
+  height: 28px;
+  background-color: #000000;
+  border-radius: 50%;
+  padding-top: 0px;
+}
+
+body .back .objectif-contener .objectif .left .bg .first-lens .first-lens-pupil {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: linear-gradient(250deg, #101f32 0%, #122135 49%, #061528 70%, #030e1c 100%);
+  position: relative;
+}
+
+body .back .objectif-contener .objectif .left .bg .first-lens .first-lens-pupil::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  background-color: #000000;
+  border: solid #001b26 2px;
+  -webkit-box-shadow: inset 2px 0px 1px -1px rgba(12, 108, 197, 0.93), inset -2px 0px 1px -1px rgba(12, 108, 197, 0.93);
+          box-shadow: inset 2px 0px 1px -1px rgba(12, 108, 197, 0.93), inset -2px 0px 1px -1px rgba(12, 108, 197, 0.93);
+}
+
+body .back .objectif-contener .objectif .left .second-lens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: inset 0px 2px 4px -1px rgba(255, 255, 255, 0.93);
+          box-shadow: inset 0px 2px 4px -1px rgba(255, 255, 255, 0.93);
+  width: 28px;
+  height: 28px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin: 10% auto;
+}
+
+body .back .objectif-contener .objectif .left .second-lens .second-lens-pupil {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: linear-gradient(250deg, #101f32 0%, #122135 49%, #061528 70%, #030e1c 100%);
+  position: relative;
+}
+
+body .back .objectif-contener .objectif .left .second-lens .second-lens-pupil::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  background-color: #000000;
+  border: solid #001b26 2px;
+  -webkit-box-shadow: inset 2px 0px 1px -1px rgba(12, 108, 197, 0.93), inset -2px 0px 1px -1px rgba(12, 108, 197, 0.93);
+          box-shadow: inset 2px 0px 1px -1px rgba(12, 108, 197, 0.93), inset -2px 0px 1px -1px rgba(12, 108, 197, 0.93);
+}
+
+body .back .objectif-contener .objectif .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .back .objectif-contener .objectif .right .flash {
+  width: 15px;
+  height: 15px;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(57, 53, 53, 0.75);
+          box-shadow: 0px 2px 2px 0px rgba(57, 53, 53, 0.75);
+  background-color: white;
+  border-radius: 50%;
+  margin: 20% 59%;
+  border: solid #d3c5ab 2px;
+  background: white;
+  background: radial-gradient(circle, white 0%, rgba(245, 255, 0, 0.510539) 14%, white 23%, #babcb9 35%, #dfe0de 57%, #eff1ed 81%, white 100%);
+}
+
+body .back .objectif-contener .objectif .right .bg {
+  width: 35px;
+  height: 35px;
+  background: #e9dab4;
+  background: linear-gradient(176deg, #e9dab4 0%, #d8bd88 100%);
+  border-radius: 50%;
+  margin: -13% 0 0 35%;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+body .back .objectif-contener .objectif .right .bg .third-lens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin: 10%;
+  -webkit-box-shadow: inset 0px 2px 4px -1px rgba(255, 255, 255, 0.93);
+          box-shadow: inset 0px 2px 4px -1px rgba(255, 255, 255, 0.93);
+}
+
+body .back .objectif-contener .objectif .right .bg .third-lens .third-lens-pupil {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: auto auto;
+  background: #162538;
+  position: relative;
+}
+
+body .back .objectif-contener .objectif .right .bg .third-lens .third-lens-pupil::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  background-color: #000000;
+  border: solid #001b26 2px;
+  -webkit-box-shadow: inset 2px 0px 1px -1px rgba(12, 108, 197, 0.93), inset -2px 0px 1px -1px rgba(12, 108, 197, 0.93);
+          box-shadow: inset 2px 0px 1px -1px rgba(12, 108, 197, 0.93), inset -2px 0px 1px -1px rgba(12, 108, 197, 0.93);
+}
+
+body .back .objectif-contener .objectif .right .black {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 12% 65% auto;
+}
+
+body .back .objectif-contener .objectif .right .black::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 8%;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(78, 73, 73, 0.75);
+          box-shadow: 0px 1px 1px 0px rgba(78, 73, 73, 0.75);
+}
+
+body .back ul {
+  margin-top: -100px;
+}
+
+body .back ul li:nth-child(1) {
+  height: 20px;
+  width: 2px;
+  background-color: #e0c392;
+  border-radius: 50px;
+  margin-left: 102%;
+  margin-top: 30%;
+  box-shadow: -200px -17px 1px -200px white inset;
+  -webkit-box-shadow: -200px -17px 1px -200px white inset;
+  -moz-box-shadow: -200px -17px 1px -200px white inset;
+  z-index: -20;
+  background: black;
+  background: linear-gradient(176deg, black 1%, #3e3931 5%, #c9b99f 22%, #b7a88b 78%, #3e3931 95%, black 99%);
+}
+
+body .back ul li:nth-child(2) {
+  height: 30px;
+  width: 3px;
+  background-color: #e0c79b;
+  border-radius: 50px;
+  margin-left: -3.8%;
+  margin-top: 8%;
+  box-shadow: 1px 1px 1px -1px white inset, 1px 1px 1px 1px;
+  -webkit-box-shadow: 1px 1px 1px -1px white inset;
+  -moz-box-shadow: 1px 1px 1px -1px white inset;
+  background: black;
+  background: linear-gradient(176deg, black 1%, #3e3931 5%, #c9b99f 22%, #b7a88b 78%, #3e3931 95%, black 99%);
+}
+
+body .back ul li:nth-child(3) {
+  height: 25px;
+  width: 2px;
+  background-color: #e0c392;
+  border-radius: 50px;
+  margin-left: 102%;
+  margin-top: 10%;
+  box-shadow: -200px -17px 1px -200px white inset;
+  -webkit-box-shadow: -200px -17px 1px -200px white inset;
+  -moz-box-shadow: -200px -17px 1px -200px white inset;
+  background: black;
+  background: linear-gradient(176deg, black 1%, #3e3931 5%, #c9b99f 22%, #b7a88b 78%, #3e3931 95%, black 99%);
+}
+
+body .back ul li:nth-child(4) {
+  height: 25px;
+  width: 2px;
+  background-color: #e0c392;
+  border-radius: 50px;
+  margin-left: 102%;
+  margin-top: 2%;
+  box-shadow: -200px -17px 1px -200px white inset;
+  -webkit-box-shadow: -200px -17px 1px -200px white inset;
+  -moz-box-shadow: -200px -17px 1px -200px white inset;
+  background: black;
+  background: linear-gradient(176deg, black 1%, #3e3931 5%, #c9b99f 22%, #b7a88b 78%, #3e3931 95%, black 99%);
+}
+
+body .opened {
+  z-index: 5000 !important;
+}
+/*# sourceMappingURL=main.css.map */
